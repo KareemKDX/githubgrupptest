@@ -5,5 +5,7 @@ public class Main {
         Cars cars = new Cars("Kareem","Ferrari","Ja");
 
 
+        System.out.println("hej samuel du är fin idag");
+
     }
 }
