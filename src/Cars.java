@@ -1,12 +1,26 @@
 public class Cars {
     String name;
     String model;
-    int hej = 10;
+    String driverLicense;
 
-    public Cars(String name, String model,int hej) {
+    public Cars(String name, String model, String driverLicense) {
         this.name = name;
         this.model = model;
-        this.hej = hej;
+        this.driverLicense = driverLicense;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public String getModel() {
+        return model;
+
+    }
+
+    public String getDriverLicense() {
+        return driverLicense;
     }
 
 }
