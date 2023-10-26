@@ -1,0 +1,17 @@
+Index: src/Counter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Counter {\n\n    public void Counter() {\n\n        int i = 6;\n        int x = 3;\n        int total = i + x;\n        System.out.println(total + \"testefel bdwjbhc\");\n\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Counter.java b/src/Counter.java
+--- a/src/Counter.java	(revision 887d45b8a0fc01f31c777b0a7575f61b734c3563)
++++ b/src/Counter.java	(date 1698317783457)
+@@ -8,5 +8,6 @@
+         System.out.println(total + "testefel bdwjbhc");
+ 
+ 
++
+     }
+ }
